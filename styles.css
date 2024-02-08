@@ -1,0 +1,105 @@
+/* globais */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(7, 7, 7);
+}
+
+body {
+    background-color: rgb(198 201 193);
+}
+
+/* header*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    height: 80px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.menu-items a img {
+    width: 26px;
+}
+
+.menu-items a {
+    margin-left: 30px;
+}
+
+
+/* main */
+.conteudo {
+    background-color: rgb(97, 97, 97);
+    height: calc(100vh - 80px);
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+}
+
+.texto-esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.texto-esquerda h1 {
+    font-size: 50px;
+    color: rgb(226 178 53);
+}
+
+.texto-esquerda p,
+span {
+    color: rgb(198 201 193);
+    width: 600px;
+    text-align: justify;
+}
+
+.texto-esquerda p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.texto-esquerda span {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.texto-esquerda a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(226 178 53);
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 10px 0px;
+}
+
+.texto-esquerda a:hover{
+    background-color: rgb(255, 255, 255);
+    /* transform: translateY(-.4rem); */
+}
+
+.imagem-direita {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fundo-branco {
+    border-radius: 33% 67% 53% 47%/66% 41% 59% 34%;
+    background: linear-gradient(180deg,rgba(255, 255, 255, 0.906),rgb(226 178 53) 60%);
+}
+
+
+
+
+/* footer */
